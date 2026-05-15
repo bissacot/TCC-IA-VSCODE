@@ -1,7 +1,9 @@
-[
-  {
-    "student_id": "GEC1",
-    "name": "Bissacot",
-    "course_code": "GEC"
-  }
-]
+{
+  "students": [
+    {
+      "student_id": "GEC1",
+      "name": "Gabriel",
+      "course_code": "GEC1363"
+    }
+  ]
+}

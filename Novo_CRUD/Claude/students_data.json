@@ -1,0 +1,12 @@
+[
+  {
+    "student_id": "GES1",
+    "name": "Vinicius",
+    "course_code": "GES"
+  },
+  {
+    "student_id": "GEC2",
+    "name": "Matheus",
+    "course_code": "GEC"
+  }
+]
