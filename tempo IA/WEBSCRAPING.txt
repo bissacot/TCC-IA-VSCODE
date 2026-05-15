@@ -1,0 +1,10 @@
+CLAUDE
+47,01
+não conseguiu extrair os arquivos
+------------------
+GPT5-mini
+2:50,33
+não criou o arquivo
+------------------
+RAPTOR mini
+35,1

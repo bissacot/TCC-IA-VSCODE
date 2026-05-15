@@ -1,0 +1,14 @@
+Novo-ERP/MES
+Claude
+5:29,08
+------------------------------------
+GPT5-mini
+dificuldade de ler em portigues
+3:33,14
+GPT não fez o código com o primeiro prompt
+4:19,89
+-------------------------------------
+Raptor mini preview
+50,69
+fez tudo em um arquivo.py
+
