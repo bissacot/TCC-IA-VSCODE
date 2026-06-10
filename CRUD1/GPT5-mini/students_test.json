@@ -1,0 +1,18 @@
+{
+  "students": [
+    {
+      "id": "GES1",
+      "name": "Alice M. Smith",
+      "course": "GES"
+    },
+    {
+      "id": "GES2",
+      "name": "Cleo",
+      "course": "GES"
+    }
+  ],
+  "counters": {
+    "GES": 2,
+    "GEC": 1
+  }
+}

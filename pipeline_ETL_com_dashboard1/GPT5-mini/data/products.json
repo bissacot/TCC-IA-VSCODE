@@ -1,0 +1,7 @@
+[
+  {"product_id": "P1", "name": "Widget A", "category": "Widgets", "price": 10.5},
+  {"product_id": "P2", "name": "Widget B", "category": "Widgets", "price": 20.0},
+  {"product_id": "P3", "name": "Gadget C", "category": "Gadgets", "price": 15.0},
+  {"product_id": "P4", "name": "Accessory D", "category": "Accessories", "price": 5.0},
+  {"product_id": "P5", "name": "Premium E", "category": "Premium", "price": 50.0}
+]

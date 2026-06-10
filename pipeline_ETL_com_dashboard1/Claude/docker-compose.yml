@@ -1,0 +1,104 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: sales_db
+    environment:
+      POSTGRES_DB: ${DB_NAME:-sales_db}
+      POSTGRES_USER: ${DB_USER:-etl_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-etl_password}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/01-init.sql
+    networks:
+      - etl_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-etl_user}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # ETL Pipeline Service
+  etl-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.etl
+    container_name: etl_pipeline
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT:-development}
+      - DEBUG=${DEBUG:-False}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USER=${DB_USER:-etl_user}
+      - DB_PASSWORD=${DB_PASSWORD:-etl_password}
+      - DB_NAME=${DB_NAME:-sales_db}
+      - PRODUCT_API_URL=${PRODUCT_API_URL}
+      - CSV_SALES_FILE=${CSV_SALES_FILE:-sales_data.csv}
+      - JSON_CUSTOMERS_FILE=${JSON_CUSTOMERS_FILE:-customers.json}
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+    networks:
+      - etl_network
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # Streamlit Dashboard
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.dashboard
+    container_name: sales_dashboard
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT:-development}
+      - DEBUG=${DEBUG:-False}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_USER=${DB_USER:-etl_user}
+      - DB_PASSWORD=${DB_PASSWORD:-etl_password}
+      - DB_NAME=${DB_NAME:-sales_db}
+      - CACHE_TTL_SECONDS=${CACHE_TTL_SECONDS:-3600}
+    ports:
+      - "${DASHBOARD_PORT:-8501}:8501"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./reports:/app/reports
+    networks:
+      - etl_network
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # pgAdmin for Database Management
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    networks:
+      - etl_network
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+
+networks:
+  etl_network:
+    driver: bridge

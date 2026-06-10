@@ -1,0 +1,16 @@
+pandas
+requests
+sqlalchemy
+psycopg2-binary
+streamlit
+fastapi
+uvicorn
+openpyxl
+reportlab
+python-dotenv
+alembic
+apscheduler
+loguru
+pytest
+mypy
+black

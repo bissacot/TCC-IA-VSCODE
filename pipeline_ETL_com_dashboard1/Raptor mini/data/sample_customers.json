@@ -1,0 +1,9 @@
+[
+  {"customer_id": "C001", "customer_name": "Ava Roberts", "state": "CA", "email": "ava.roberts@example.com", "phone": "555-1234"},
+  {"customer_id": "C002", "customer_name": "Noah Turner", "state": "NY", "email": "noah.turner@example.com", "phone": "555-2345"},
+  {"customer_id": "C003", "customer_name": "Mia Chen", "state": "TX", "email": "mia.chen@example.com", "phone": "555-3456"},
+  {"customer_id": "C004", "customer_name": "Liam Johnson", "state": "WA", "email": "liam.johnson@example.com", "phone": "555-4567"},
+  {"customer_id": "C005", "customer_name": "Sophia Smith", "state": "FL", "email": "sophia.smith@example.com", "phone": "555-5678"},
+  {"customer_id": "C006", "customer_name": "Ethan Davis", "state": "NY", "email": "ethan.davis@example.com", "phone": "555-6789"},
+  {"customer_id": "C007", "customer_name": "Olivia Green", "state": "WA", "email": "olivia.green@example.com", "phone": "555-7890"}
+]

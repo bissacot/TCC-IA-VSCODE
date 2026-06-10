@@ -1,0 +1,259 @@
+2026-05-29 19:10:01,316 - __main__ - INFO - ================================================================================
+2026-05-29 19:10:01,316 - __main__ - INFO - Starting Books Scraper
+2026-05-29 19:10:01,316 - __main__ - INFO - ================================================================================
+2026-05-29 19:10:01,318 - __main__ - INFO - CSV file initialized: products.csv
+2026-05-29 19:10:01,318 - __main__ - INFO - Scraper initialized: base_url=http://books.toscrape.com/, workers=5, output=products.csv
+2026-05-29 19:10:01,318 - __main__ - INFO - Starting scraper with 5 worker threads
+2026-05-29 19:10:01,319 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/
+2026-05-29 19:10:02,368 - __main__ - INFO - Successfully fetched http://books.toscrape.com/
+2026-05-29 19:10:02,395 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/
+2026-05-29 19:10:02,396 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:02,425 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-2.html
+2026-05-29 19:10:02,425 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-2.html
+2026-05-29 19:10:02,873 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-2.html
+2026-05-29 19:10:02,899 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-2.html
+2026-05-29 19:10:02,900 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:02,924 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-3.html
+2026-05-29 19:10:02,925 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-3.html
+2026-05-29 19:10:03,496 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-3.html
+2026-05-29 19:10:03,523 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-3.html
+2026-05-29 19:10:03,523 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:03,555 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-4.html
+2026-05-29 19:10:03,573 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-4.html
+2026-05-29 19:10:04,304 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-4.html
+2026-05-29 19:10:04,330 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-4.html
+2026-05-29 19:10:04,331 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:04,363 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-5.html
+2026-05-29 19:10:04,363 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-5.html
+2026-05-29 19:10:05,230 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-5.html
+2026-05-29 19:10:05,256 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-5.html
+2026-05-29 19:10:05,257 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:05,281 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-6.html
+2026-05-29 19:10:05,281 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-6.html
+2026-05-29 19:10:06,001 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-6.html
+2026-05-29 19:10:06,027 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-6.html
+2026-05-29 19:10:06,028 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:06,052 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-7.html
+2026-05-29 19:10:06,052 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-7.html
+2026-05-29 19:10:06,771 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-7.html
+2026-05-29 19:10:06,796 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-7.html
+2026-05-29 19:10:06,797 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:06,822 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-8.html
+2026-05-29 19:10:06,822 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-8.html
+2026-05-29 19:10:07,540 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-8.html
+2026-05-29 19:10:07,565 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-8.html
+2026-05-29 19:10:07,566 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:07,591 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-9.html
+2026-05-29 19:10:07,591 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-9.html
+2026-05-29 19:10:08,956 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-9.html
+2026-05-29 19:10:08,983 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-9.html
+2026-05-29 19:10:08,984 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:09,016 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-10.html
+2026-05-29 19:10:09,016 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-10.html
+2026-05-29 19:10:10,224 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-10.html
+2026-05-29 19:10:10,251 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-10.html
+2026-05-29 19:10:10,252 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:10,280 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-11.html
+2026-05-29 19:10:10,280 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-11.html
+2026-05-29 19:10:11,704 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-11.html
+2026-05-29 19:10:11,731 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-11.html
+2026-05-29 19:10:11,731 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:11,755 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-12.html
+2026-05-29 19:10:11,756 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-12.html
+2026-05-29 19:10:12,760 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-12.html
+2026-05-29 19:10:12,786 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-12.html
+2026-05-29 19:10:12,787 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:12,811 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-13.html
+2026-05-29 19:10:12,811 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-13.html
+2026-05-29 19:10:13,530 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-13.html
+2026-05-29 19:10:13,556 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-13.html
+2026-05-29 19:10:13,557 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:13,581 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-14.html
+2026-05-29 19:10:13,581 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-14.html
+2026-05-29 19:10:14,163 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-14.html
+2026-05-29 19:10:14,189 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-14.html
+2026-05-29 19:10:14,190 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:14,214 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-15.html
+2026-05-29 19:10:14,214 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-15.html
+2026-05-29 19:10:14,930 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-15.html
+2026-05-29 19:10:14,956 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-15.html
+2026-05-29 19:10:14,957 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:14,995 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-16.html
+2026-05-29 19:10:14,995 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-16.html
+2026-05-29 19:10:15,708 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-16.html
+2026-05-29 19:10:15,734 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-16.html
+2026-05-29 19:10:15,735 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:15,759 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-17.html
+2026-05-29 19:10:15,759 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-17.html
+2026-05-29 19:10:16,662 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-17.html
+2026-05-29 19:10:16,689 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-17.html
+2026-05-29 19:10:16,689 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:16,713 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-18.html
+2026-05-29 19:10:16,713 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-18.html
+2026-05-29 19:10:17,432 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-18.html
+2026-05-29 19:10:17,458 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-18.html
+2026-05-29 19:10:17,458 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:17,482 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-19.html
+2026-05-29 19:10:17,482 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-19.html
+2026-05-29 19:10:18,708 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-19.html
+2026-05-29 19:10:18,733 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-19.html
+2026-05-29 19:10:18,733 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:18,757 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-20.html
+2026-05-29 19:10:18,757 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-20.html
+2026-05-29 19:10:19,623 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-20.html
+2026-05-29 19:10:19,649 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-20.html
+2026-05-29 19:10:19,650 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:19,673 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-21.html
+2026-05-29 19:10:19,674 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-21.html
+2026-05-29 19:10:20,813 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-21.html
+2026-05-29 19:10:20,838 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-21.html
+2026-05-29 19:10:20,839 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:20,862 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-22.html
+2026-05-29 19:10:20,862 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-22.html
+2026-05-29 19:10:22,188 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-22.html
+2026-05-29 19:10:22,213 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-22.html
+2026-05-29 19:10:22,214 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:22,238 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-23.html
+2026-05-29 19:10:22,239 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-23.html
+2026-05-29 19:10:23,238 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-23.html
+2026-05-29 19:10:23,264 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-23.html
+2026-05-29 19:10:23,264 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:23,289 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-24.html
+2026-05-29 19:10:23,289 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-24.html
+2026-05-29 19:10:24,148 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-24.html
+2026-05-29 19:10:24,174 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-24.html
+2026-05-29 19:10:24,175 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:24,200 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-25.html
+2026-05-29 19:10:24,200 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-25.html
+2026-05-29 19:10:24,970 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-25.html
+2026-05-29 19:10:24,995 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-25.html
+2026-05-29 19:10:24,996 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:25,020 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-26.html
+2026-05-29 19:10:25,020 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-26.html
+2026-05-29 19:10:25,735 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-26.html
+2026-05-29 19:10:25,761 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-26.html
+2026-05-29 19:10:25,761 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:25,800 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-27.html
+2026-05-29 19:10:25,800 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-27.html
+2026-05-29 19:10:26,515 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-27.html
+2026-05-29 19:10:26,540 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-27.html
+2026-05-29 19:10:26,540 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:26,564 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-28.html
+2026-05-29 19:10:26,565 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-28.html
+2026-05-29 19:10:27,326 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-28.html
+2026-05-29 19:10:27,351 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-28.html
+2026-05-29 19:10:27,352 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:27,376 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-29.html
+2026-05-29 19:10:27,376 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-29.html
+2026-05-29 19:10:28,094 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-29.html
+2026-05-29 19:10:28,119 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-29.html
+2026-05-29 19:10:28,120 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:28,144 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-30.html
+2026-05-29 19:10:28,144 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-30.html
+2026-05-29 19:10:28,869 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-30.html
+2026-05-29 19:10:28,895 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-30.html
+2026-05-29 19:10:28,896 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:28,920 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-31.html
+2026-05-29 19:10:28,920 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-31.html
+2026-05-29 19:10:29,590 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-31.html
+2026-05-29 19:10:29,616 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-31.html
+2026-05-29 19:10:29,616 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:29,640 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-32.html
+2026-05-29 19:10:29,640 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-32.html
+2026-05-29 19:10:30,222 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-32.html
+2026-05-29 19:10:30,247 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-32.html
+2026-05-29 19:10:30,248 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:30,272 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-33.html
+2026-05-29 19:10:30,272 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-33.html
+2026-05-29 19:10:30,890 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-33.html
+2026-05-29 19:10:30,916 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-33.html
+2026-05-29 19:10:30,917 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:30,941 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-34.html
+2026-05-29 19:10:30,941 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-34.html
+2026-05-29 19:10:31,519 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-34.html
+2026-05-29 19:10:31,545 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-34.html
+2026-05-29 19:10:31,545 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:31,569 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-35.html
+2026-05-29 19:10:31,570 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-35.html
+2026-05-29 19:10:32,335 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-35.html
+2026-05-29 19:10:32,361 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-35.html
+2026-05-29 19:10:32,362 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:32,386 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-36.html
+2026-05-29 19:10:32,386 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-36.html
+2026-05-29 19:10:33,524 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-36.html
+2026-05-29 19:10:33,549 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-36.html
+2026-05-29 19:10:33,550 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:33,574 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-37.html
+2026-05-29 19:10:33,575 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-37.html
+2026-05-29 19:10:35,263 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-37.html
+2026-05-29 19:10:35,289 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-37.html
+2026-05-29 19:10:35,289 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:35,328 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-38.html
+2026-05-29 19:10:35,329 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-38.html
+2026-05-29 19:10:36,475 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-38.html
+2026-05-29 19:10:36,500 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-38.html
+2026-05-29 19:10:36,501 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:36,525 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-39.html
+2026-05-29 19:10:36,525 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-39.html
+2026-05-29 19:10:37,242 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-39.html
+2026-05-29 19:10:37,267 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-39.html
+2026-05-29 19:10:37,268 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:37,292 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-40.html
+2026-05-29 19:10:37,292 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-40.html
+2026-05-29 19:10:37,869 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-40.html
+2026-05-29 19:10:37,894 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-40.html
+2026-05-29 19:10:37,895 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:37,919 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-41.html
+2026-05-29 19:10:37,919 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-41.html
+2026-05-29 19:10:38,363 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-41.html
+2026-05-29 19:10:38,389 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-41.html
+2026-05-29 19:10:38,389 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:38,413 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-42.html
+2026-05-29 19:10:38,413 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-42.html
+2026-05-29 19:10:39,127 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-42.html
+2026-05-29 19:10:39,152 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-42.html
+2026-05-29 19:10:39,153 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:39,177 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-43.html
+2026-05-29 19:10:39,177 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-43.html
+2026-05-29 19:10:39,890 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-43.html
+2026-05-29 19:10:39,916 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-43.html
+2026-05-29 19:10:39,916 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:39,941 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-44.html
+2026-05-29 19:10:39,941 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-44.html
+2026-05-29 19:10:40,520 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-44.html
+2026-05-29 19:10:40,545 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-44.html
+2026-05-29 19:10:40,546 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:40,569 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-45.html
+2026-05-29 19:10:40,570 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-45.html
+2026-05-29 19:10:41,148 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-45.html
+2026-05-29 19:10:41,173 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-45.html
+2026-05-29 19:10:41,174 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:41,198 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-46.html
+2026-05-29 19:10:41,198 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-46.html
+2026-05-29 19:10:41,914 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-46.html
+2026-05-29 19:10:41,941 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-46.html
+2026-05-29 19:10:41,941 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:42,001 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-47.html
+2026-05-29 19:10:42,001 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-47.html
+2026-05-29 19:10:42,723 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-47.html
+2026-05-29 19:10:42,750 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-47.html
+2026-05-29 19:10:42,750 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:42,774 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-48.html
+2026-05-29 19:10:42,774 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-48.html
+2026-05-29 19:10:43,628 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-48.html
+2026-05-29 19:10:43,654 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-48.html
+2026-05-29 19:10:43,655 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:43,679 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-49.html
+2026-05-29 19:10:43,680 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-49.html
+2026-05-29 19:10:44,426 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-49.html
+2026-05-29 19:10:44,467 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-49.html
+2026-05-29 19:10:44,467 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:44,491 - __main__ - INFO - Discovered next page: http://books.toscrape.com/catalogue/page-50.html
+2026-05-29 19:10:44,491 - __main__ - INFO - Worker thread processing: http://books.toscrape.com/catalogue/page-50.html
+2026-05-29 19:10:45,123 - __main__ - INFO - Successfully fetched http://books.toscrape.com/catalogue/page-50.html
+2026-05-29 19:10:45,154 - __main__ - INFO - Extracted 20 books from http://books.toscrape.com/catalogue/page-50.html
+2026-05-29 19:10:45,154 - __main__ - INFO - Wrote 20 rows to products.csv
+2026-05-29 19:10:45,201 - __main__ - INFO - No next page found for: http://books.toscrape.com/catalogue/page-50.html
+2026-05-29 19:10:45,202 - __main__ - INFO - Scraping completed. Total pages processed: 50. Data saved to: products.csv
+2026-05-29 19:10:45,202 - __main__ - INFO - Total execution time: 43.88 seconds
+2026-05-29 19:10:45,203 - __main__ - INFO - ================================================================================

@@ -1,0 +1,123 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Data and Reports
+data/
+reports/
+*.csv
+*.xlsx
+*.pdf
+backup/
+*.dump
+
+# OS
+Thumbs.db
+*.DS_Store
+*.swp
+*~
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Database
+*.sql.bak
+*.db
+*.sqlite
+
+# Node (if using npm)
+node_modules/
+npm-debug.log
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# Secrets and credentials
+secrets/
+credentials/
+*.key
+*.pem
+
+# Build
+dist/
+build/
+*.whl
+
+# Documentation builds
+site/
+docs/_build/
+
+# IDE specific
+.editorconfig
+
+# Project specific
+.streamlit/

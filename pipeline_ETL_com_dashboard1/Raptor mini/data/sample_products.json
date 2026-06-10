@@ -1,0 +1,10 @@
+{
+  "products": [
+    {"product_id": "P001", "product_name": "Smart Speaker", "category": "Electronics", "unit_price": 129.90},
+    {"product_id": "P002", "product_name": "Laptop Pro", "category": "Computers", "unit_price": 299.00},
+    {"product_id": "P003", "product_name": "Wireless Mouse", "category": "Accessories", "unit_price": 19.99},
+    {"product_id": "P004", "product_name": "Bluetooth Headphones", "category": "Audio", "unit_price": 49.90},
+    {"product_id": "P005", "product_name": "Charging Cable", "category": "Accessories", "unit_price": 9.99},
+    {"product_id": "P006", "product_name": "Gaming Monitor", "category": "Displays", "unit_price": 499.00}
+  ]
+}

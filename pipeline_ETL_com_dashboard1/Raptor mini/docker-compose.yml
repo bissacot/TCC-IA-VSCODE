@@ -1,0 +1,53 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-salesdb}
+      POSTGRES_USER: ${POSTGRES_USER:-sales_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-sales_password}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mock_api:
+    build:
+      context: .
+    command: ["python", "scripts/mock_api.py"]
+    environment:
+      PRODUCT_API_PORT: 5000
+    ports:
+      - "5000:5000"
+    depends_on:
+      - postgres
+
+  app:
+    build:
+      context: .
+    environment:
+      - DATABASE_HOST=postgres
+      - DATABASE_PORT=5432
+      - DATABASE_NAME=${POSTGRES_DB:-salesdb}
+      - DATABASE_USER=${POSTGRES_USER:-sales_user}
+      - DATABASE_PASSWORD=${POSTGRES_PASSWORD:-sales_password}
+      - SALES_CSV_PATH=/app/data/sample_sales.csv
+      - CUSTOMER_JSON_PATH=/app/data/sample_customers.json
+      - PRODUCT_API_URL=http://mock_api:5000/api/products
+      - LOG_LEVEL=INFO
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+      - mock_api
+
+volumes:
+  postgres-data:
