@@ -1,0 +1,22 @@
+# ETL Pipeline Configuration
+
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "sales_db",
+    "user": "postgres",
+    "password": "password"
+  },
+  "api": {
+    "base_url": "https://api.example.com",
+    "timeout": 30,
+    "retry_attempts": 3,
+    "retry_delay": 5
+  },
+  "csv_path": "data/input/sales.csv",
+  "json_path": "data/input/customers.json",
+  "batch_size": 1000,
+  "log_level": "INFO",
+  "incremental": false
+}

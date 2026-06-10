@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "product_id": "PROD001",
+      "name": "Laptop Premium",
+      "category": "Electronics",
+      "price": 1999.99,
+      "description": "High-performance laptop with 16GB RAM and 512GB SSD"
+    },
+    {
+      "product_id": "PROD002",
+      "name": "Wireless Mouse",
+      "category": "Accessories",
+      "price": 499.99,
+      "description": "Ergonomic wireless mouse with long battery life"
+    },
+    {
+      "product_id": "PROD003",
+      "name": "USB-C Hub",
+      "category": "Accessories",
+      "price": 299.99,
+      "description": "Multi-port USB-C hub with HDMI and power delivery"
+    },
+    {
+      "product_id": "PROD004",
+      "name": "Screen Protector",
+      "category": "Accessories",
+      "price": 149.99,
+      "description": "Tempered glass screen protector for laptops"
+    }
+  ]
+}

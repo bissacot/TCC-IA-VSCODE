@@ -1,0 +1,72 @@
+[
+  {
+    "customer_id": "CUST001",
+    "name": "João Silva",
+    "email": "joao.silva@example.com",
+    "phone": "+55 11 98765-4321",
+    "state": "SP"
+  },
+  {
+    "customer_id": "CUST002",
+    "name": "Maria Santos",
+    "email": "maria.santos@example.com",
+    "phone": "+55 21 98765-4322",
+    "state": "RJ"
+  },
+  {
+    "customer_id": "CUST003",
+    "name": "Pedro Oliveira",
+    "email": "pedro.oliveira@example.com",
+    "phone": "+55 31 98765-4323",
+    "state": "MG"
+  },
+  {
+    "customer_id": "CUST004",
+    "name": "Ana Costa",
+    "email": "ana.costa@example.com",
+    "phone": "+55 41 98765-4324",
+    "state": "PR"
+  },
+  {
+    "customer_id": "CUST005",
+    "name": "Carlos Ferreira",
+    "email": "carlos.ferreira@example.com",
+    "phone": "+55 51 98765-4325",
+    "state": "RS"
+  },
+  {
+    "customer_id": "CUST006",
+    "name": "Fernanda Alves",
+    "email": "fernanda.alves@example.com",
+    "phone": "+55 61 98765-4326",
+    "state": "DF"
+  },
+  {
+    "customer_id": "CUST007",
+    "name": "Roberto Martins",
+    "email": "roberto.martins@example.com",
+    "phone": "+55 85 98765-4327",
+    "state": "CE"
+  },
+  {
+    "customer_id": "CUST008",
+    "name": "Beatriz Lima",
+    "email": "beatriz.lima@example.com",
+    "phone": "+55 71 98765-4328",
+    "state": "BA"
+  },
+  {
+    "customer_id": "CUST009",
+    "name": "Gustavo Rocha",
+    "email": "gustavo.rocha@example.com",
+    "phone": "+55 81 98765-4329",
+    "state": "PE"
+  },
+  {
+    "customer_id": "CUST010",
+    "name": "Isabela Gomes",
+    "email": "isabela.gomes@example.com",
+    "phone": "+55 92 98765-4330",
+    "state": "AM"
+  }
+]
