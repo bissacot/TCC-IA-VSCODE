@@ -1,31 +1,30 @@
 [tool.poetry]
-+name = "sales-etl-dashboard"
-+version = "0.1.0"
-+description = "ETL pipeline and Streamlit dashboard for sales analysis"
-+authors = ["GPT5-mini <gpt5@example.com>"]
-+
-+[tool.poetry.dependencies]
-+python = "^3.10"
-+pandas = "^2.0"
-+requests = "^2.31"
-+sqlalchemy = "^2.0"
-+psycopg2-binary = "^2.9"
-+streamlit = "^1.22"
-+fastapi = "^0.98"
-+uvicorn = "^0.22"
-+openpyxl = "^3.1"
-+reportlab = "^4.0"
-+python-dotenv = "^1.0"
-+alembic = "^1.11"
-+apscheduler = "^3.10"
-+loguru = "^0.7"
-+
-+[tool.poetry.dev-dependencies]
-+pytest = "^7.4"
-+mypy = "^1.9"
-+black = "^24.1"
-+
-+[build-system]
-+requires = ["poetry-core>=1.0.0"]
-+build-backend = "poetry.core.masonry.api"
-+
+name = "sales-etl-dashboard"
+version = "0.1.0"
+description = "ETL pipeline and Streamlit dashboard for sales analysis"
+authors = ["GPT5-mini <gpt5@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0"
+requests = "^2.31"
+sqlalchemy = "^2.0"
+psycopg2-binary = "^2.9"
+streamlit = "^1.22"
+fastapi = "^0.98"
+uvicorn = "^0.22"
+openpyxl = "^3.1"
+reportlab = "^4.0"
+python-dotenv = "^1.0"
+alembic = "^1.11"
+apscheduler = "^3.10"
+loguru = "^0.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4"
+mypy = "^1.9"
+black = "^24.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,73 @@
+Date : 2026-06-10 18:50:47
+Directory : c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude
+Total : 33 files,  5822 codes, 349 comments, 1724 blanks, all 7895 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| Markdown         |         11 |      3,689 |          0 |      1,096 |      4,785 |
+| Python           |         17 |      1,837 |        313 |        568 |      2,718 |
+| MS SQL           |          1 |         95 |         20 |         17 |        132 |
+| YAML             |          1 |         94 |          4 |          7 |        105 |
+| Makefile         |          1 |         57 |          0 |         19 |         76 |
+| Ini              |          1 |         28 |          0 |          5 |         33 |
+| pip requirements |          1 |         22 |         12 |         12 |         46 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                                                         | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                                                            |         33 |      5,822 |        349 |      1,724 |      7,895 |
+| . (Files)                                                                                                                                                                    |          9 |      1,848 |         32 |        506 |      2,386 |
+| database                                                                                                                                                                     |          1 |         95 |         20 |         17 |        132 |
+| docs                                                                                                                                                                         |          7 |      2,157 |          0 |        657 |      2,814 |
+| src                                                                                                                                                                          |         14 |      1,495 |        262 |        482 |      2,239 |
+| src (Files)                                                                                                                                                                  |          3 |        131 |         50 |         54 |        235 |
+| src\dashboard                                                                                                                                                                |          2 |        241 |         43 |         65 |        349 |
+| src\database                                                                                                                                                                 |          3 |        364 |         60 |        107 |        531 |
+| src\etl                                                                                                                                                                      |          5 |        758 |        108 |        254 |      1,120 |
+| src\utils                                                                                                                                                                    |          1 |          1 |          1 |          2 |          4 |
+| tests                                                                                                                                                                        |          2 |        227 |         35 |         62 |        324 |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                                                                                                     | language         | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\CONTRIBUTING.md            | Markdown         |        387 |          0 |        131 |        518 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\DELIVERY_SUMMARY.md        | Markdown         |        633 |          0 |        160 |        793 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\Makefile                   | Makefile         |         57 |          0 |         19 |         76 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\QUICK_REFERENCE.md         | Markdown         |        338 |          0 |         95 |        433 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\README.md                  | Markdown         |        174 |          0 |         53 |        227 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\conftest.py                | Python           |        115 |         16 |         24 |        155 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\database\init.sql          | MS SQL           |         95 |         20 |         17 |        132 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\docker-compose.yml         | YAML             |         94 |          4 |          7 |        105 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\docs\ARCHITECTURE.md       | Markdown         |        277 |          0 |         68 |        345 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\docs\DASHBOARD.md          | Markdown         |        306 |          0 |        110 |        416 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\docs\DATABASE_SCHEMA.md    | Markdown         |        347 |          0 |         67 |        414 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\docs\DEPLOYMENT.md         | Markdown         |        277 |          0 |        108 |        385 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\docs\ETL.md                | Markdown         |        385 |          0 |         99 |        484 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\docs\INSTALLATION.md       | Markdown         |        318 |          0 |        118 |        436 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\docs\QUICKSTART.md         | Markdown         |        247 |          0 |         87 |        334 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\pytest.ini                 | Ini              |         28 |          0 |          5 |         33 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\requirements.txt           | pip requirements |         22 |         12 |         12 |         46 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\__init__.py            | Python           |          2 |          1 |          2 |          5 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\config.py              | Python           |         87 |         29 |         36 |        152 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\dashboard\__init__.py  | Python           |          1 |          1 |          2 |          4 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\dashboard\app.py       | Python           |        240 |         42 |         63 |        345 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\database\__init__.py   | Python           |         18 |          1 |          3 |         22 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\database\models.py     | Python           |        140 |         19 |         45 |        204 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\database\repository.py | Python           |        206 |         40 |         59 |        305 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\etl\__init__.py        | Python           |          2 |          1 |          3 |          6 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\etl\extractors.py      | Python           |        155 |         27 |         54 |        236 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\etl\loaders.py         | Python           |        199 |         25 |         64 |        288 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\etl\pipeline.py        | Python           |        186 |         17 |         58 |        261 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\etl\transformers.py    | Python           |        216 |         38 |         75 |        329 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\logger.py              | Python           |         42 |         20 |         16 |         78 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\src\utils\__init__.py      | Python           |          1 |          1 |          2 |          4 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\tests\__init__.py          | Python           |          1 |          1 |          2 |          4 |
+| c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard1\Claude\tests\test_etl_pipeline.py | Python           |        226 |         34 |         60 |        320 |
+| Total                                                                                                                                                                        |                  |      5,822 |        349 |      1,724 |      7,895 |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
