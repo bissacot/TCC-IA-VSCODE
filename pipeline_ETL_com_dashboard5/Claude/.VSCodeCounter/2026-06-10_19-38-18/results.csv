@@ -1,0 +1,35 @@
+"filename", "language", "Python", "YAML", "Docker", "Markdown", "MS SQL", "pip requirements", "comment", "blank", "total"
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\DELIVERY_CHECKLIST.md", "Markdown", 0, 0, 0, 296, 0, 0, 0, 74, 370
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\Dockerfile", "Docker", 0, 0, 16, 0, 0, 0, 6, 10, 32
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\EXECUTION_GUIDE.md", "Markdown", 0, 0, 0, 447, 0, 0, 0, 172, 619
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\PROJECT_SUMMARY.md", "Markdown", 0, 0, 0, 483, 0, 0, 0, 96, 579
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\QUICK_REFERENCE.md", "Markdown", 0, 0, 0, 341, 0, 0, 0, 89, 430
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\README.md", "Markdown", 0, 0, 0, 616, 0, 0, 0, 178, 794
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\dags\etl_pipeline_dag.py", "Python", 55, 0, 0, 0, 0, 0, 11, 17, 83
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\docker-compose.yml", "YAML", 0, 88, 0, 0, 0, 0, 4, 7, 99
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\main.py", "Python", 58, 0, 0, 0, 0, 0, 10, 20, 88
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\pytest.ini.py", "Python", 17, 0, 0, 0, 0, 0, 10, 9, 36
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\requirements.txt", "pip requirements", 0, 0, 0, 0, 0, 19, 0, 1, 20
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\sql\schema.sql", "MS SQL", 0, 0, 0, 0, 164, 0, 16, 20, 200
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 4, 1, 5
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\dashboard\__init__.py", "Python", 4, 0, 0, 0, 0, 0, 3, 3, 10
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\dashboard\app.py", "Python", 272, 0, 0, 0, 0, 0, 26, 67, 365
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\database\__init__.py", "Python", 6, 0, 0, 0, 0, 0, 3, 3, 12
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\database\connection.py", "Python", 107, 0, 0, 0, 0, 0, 14, 18, 139
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\database\loader.py", "Python", 180, 0, 0, 0, 0, 0, 8, 30, 218
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\etl\__init__.py", "Python", 11, 0, 0, 0, 0, 0, 3, 3, 17
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\etl\extractor.py", "Python", 151, 0, 0, 0, 0, 0, 53, 44, 248
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\etl\pipeline.py", "Python", 143, 0, 0, 0, 0, 0, 17, 35, 195
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\etl\transformer.py", "Python", 239, 0, 0, 0, 0, 0, 42, 50, 331
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\models\__init__.py", "Python", 8, 0, 0, 0, 0, 0, 3, 3, 14
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\models\schemas.py", "Python", 126, 0, 0, 0, 0, 0, 13, 17, 156
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\utils\__init__.py", "Python", 11, 0, 0, 0, 0, 0, 3, 3, 17
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\utils\config.py", "Python", 49, 0, 0, 0, 0, 0, 15, 15, 79
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\utils\logger.py", "Python", 39, 0, 0, 0, 0, 0, 13, 16, 68
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\utils\report_export.py", "Python", 202, 0, 0, 0, 0, 0, 101, 9, 312
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\utils\sample_data.py", "Python", 121, 0, 0, 0, 0, 0, 15, 37, 173
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\src\utils\validators.py", "Python", 57, 0, 0, 0, 0, 0, 16, 12, 85
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\tests\__init__.py", "Python", 1, 0, 0, 0, 0, 0, 3, 2, 6
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\tests\test_etl.py", "Python", 156, 0, 0, 0, 0, 0, 19, 38, 213
+"c:\Users\GabrielBissacotFragu\OneDrive - Instituto Nacional de Telecomunicações\Documents\GitHub\TCC-IA-VSCODE\pipeline_ETL_com_dashboard5\Claude\tests\test_integration.py", "Python", 49, 0, 0, 0, 0, 0, 18, 19, 86
+"Total", "-", 2062, 88, 16, 2183, 164, 19, 449, 1118, 6099

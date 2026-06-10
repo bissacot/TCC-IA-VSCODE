@@ -1,0 +1,98 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: sales_etl_db
+    environment:
+      POSTGRES_DB: sales_etl_db
+      POSTGRES_USER: etl_user
+      POSTGRES_PASSWORD: secure_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d
+    networks:
+      - sales_etl_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U etl_user -d sales_etl_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Streamlit Dashboard
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sales_dashboard
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: sales_etl_db
+      DB_USER: etl_user
+      DB_PASSWORD: secure_password
+      STREAMLIT_SERVER_PORT: 8501
+      STREAMLIT_SERVER_ADDRESS: 0.0.0.0
+    ports:
+      - "8501:8501"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+    networks:
+      - sales_etl_network
+    command: streamlit run src/dashboard/app.py
+
+  # ETL Pipeline (can be run manually)
+  etl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sales_etl_pipeline
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: sales_etl_db
+      DB_USER: etl_user
+      DB_PASSWORD: secure_password
+      LOG_LEVEL: INFO
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ./logs:/app/logs
+    networks:
+      - sales_etl_network
+    profiles:
+      - etl
+    command: python -m src.etl.pipeline
+
+  # pgAdmin for Database Management (optional)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    networks:
+      - sales_etl_network
+    profiles:
+      - admin
+
+volumes:
+  postgres_data:
+
+networks:
+  sales_etl_network:
+    driver: bridge
