@@ -1,0 +1,21 @@
+# Summary
+
+Date : 2026-06-13 10:33:36
+
+Directory c:\\Users\\mathe\\OneDrive\\Área de Trabalho\\wscp\\teste4gpt
+
+Total : 1 files,  204 codes, 33 comments, 38 blanks, all 275 lines
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| Python | 1 | 204 | 33 | 38 | 275 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 1 | 204 | 33 | 38 | 275 |
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
