@@ -1,0 +1,19 @@
+"filename", "language", "Python", "pip requirements", "SQLite", "Markdown", "YAML", "Docker", "comment", "blank", "total"
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\Dockerfile", "Docker", 0, 0, 0, 0, 0, 8, 0, 1, 9
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\README.md", "Markdown", 0, 0, 0, 3, 0, 0, 0, 3, 6
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\docker-compose.yml", "YAML", 0, 0, 0, 0, 27, 0, 0, 1, 28
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\docs\USAGE.md", "Markdown", 0, 0, 0, 16, 0, 0, 0, 8, 24
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\requirements.txt", "pip requirements", 0, 13, 0, 0, 0, 0, 0, 1, 14
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\sql\init_db.sql", "SQLite", 0, 0, 27, 0, 0, 0, 1, 4, 32
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\src\config.py", "Python", 11, 0, 0, 0, 0, 0, 0, 4, 15
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\src\db.py", "Python", 15, 0, 0, 0, 0, 0, 0, 4, 19
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\src\etl.py", "Python", 28, 0, 0, 0, 0, 0, 3, 11, 42
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\src\extract.py", "Python", 27, 0, 0, 0, 0, 0, 0, 8, 35
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\src\load.py", "Python", 94, 0, 0, 0, 0, 0, 0, 13, 107
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\src\logger.py", "Python", 10, 0, 0, 0, 0, 0, 0, 2, 12
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\src\scheduler.py", "Python", 18, 0, 0, 0, 0, 0, 0, 8, 26
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\src\transform.py", "Python", 61, 0, 0, 0, 0, 0, 10, 17, 88
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\src\utils.py", "Python", 22, 0, 0, 0, 0, 0, 0, 6, 28
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\streamlit_app.py", "Python", 58, 0, 0, 0, 0, 0, 8, 15, 81
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste4\tests\test_transform.py", "Python", 11, 0, 0, 0, 0, 0, 0, 3, 14
+"Total", "-", 355, 13, 27, 19, 27, 8, 22, 109, 580

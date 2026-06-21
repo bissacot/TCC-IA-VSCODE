@@ -1,0 +1,11 @@
+pandas>=1.5
+sqlalchemy>=1.4
+psycopg2-binary
+requests
+streamlit
+python-dotenv
+apscheduler
+reportlab
+openpyxl
+pytest
+loguru

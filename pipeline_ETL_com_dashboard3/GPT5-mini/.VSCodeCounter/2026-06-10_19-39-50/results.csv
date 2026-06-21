@@ -1,0 +1,21 @@
+"filename", "language", "YAML", "Markdown", "Docker", "JSON", "pip requirements", "CSV", "Python", "SQLite", "comment", "blank", "total"
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\Dockerfile", "Docker", 0, 0, 7, 0, 0, 0, 0, 0, 0, 1, 8
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\README.md", "Markdown", 0, 11, 0, 0, 0, 0, 0, 0, 0, 4, 15
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\app\streamlit_app.py", "Python", 0, 0, 0, 0, 0, 0, 62, 0, 2, 17, 81
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\data\customers.json", "JSON", 0, 0, 0, 4, 0, 0, 0, 0, 0, 1, 5
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\data\sales.csv", "CSV", 0, 0, 0, 0, 0, 4, 0, 0, 0, 1, 5
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\docker-compose.yml", "YAML", 32, 0, 0, 0, 0, 0, 0, 0, 0, 4, 36
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\requirements.txt", "pip requirements", 0, 0, 0, 0, 11, 0, 0, 0, 0, 1, 12
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 10, 0, 0, 1, 11
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\api_client.py", "Python", 0, 0, 0, 0, 0, 0, 14, 0, 1, 4, 19
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\config.py", "Python", 0, 0, 0, 0, 0, 0, 16, 0, 0, 8, 24
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\db.py", "Python", 0, 0, 0, 0, 0, 0, 44, 0, 0, 12, 56
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\extractors.py", "Python", 0, 0, 0, 0, 0, 0, 24, 0, 0, 8, 32
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\load.py", "Python", 0, 0, 0, 0, 0, 0, 14, 0, 0, 8, 22
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\logging_config.py", "Python", 0, 0, 0, 0, 0, 0, 7, 0, 0, 5, 12
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\models.sql", "SQLite", 0, 0, 0, 0, 0, 0, 0, 29, 1, 4, 34
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\pipeline.py", "Python", 0, 0, 0, 0, 0, 0, 55, 0, 9, 18, 82
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\quality.py", "Python", 0, 0, 0, 0, 0, 0, 14, 0, 0, 3, 17
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\transform.py", "Python", 0, 0, 0, 0, 0, 0, 43, 0, 6, 10, 59
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\tests\test_transform.py", "Python", 0, 0, 0, 0, 0, 0, 11, 0, 0, 3, 14
+"Total", "-", 32, 11, 7, 4, 11, 4, 314, 29, 19, 113, 544

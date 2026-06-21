@@ -1,0 +1,11 @@
+pandas
+requests
+sqlalchemy
+psycopg2-binary
+pydantic
+python-dotenv
+streamlit
+APScheduler
+openpyxl
+reportlab
+pytest

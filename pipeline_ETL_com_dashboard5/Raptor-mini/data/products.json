@@ -1,0 +1,7 @@
+[
+  {"id": "P1", "name": "Widget", "category": "Hardware", "price": 25.0, "created_at": "2024-12-01T00:00:00"},
+  {"id": "P2", "name": "Gadget", "category": "Hardware", "price": 55.0, "created_at": "2024-12-02T00:00:00"},
+  {"id": "P3", "name": "Accessory", "category": "Accessories", "price": 12.5, "created_at": "2024-12-03T00:00:00"},
+  {"id": "P4", "name": "Service Plan", "category": "Services", "price": 120.0, "created_at": "2024-12-04T00:00:00"},
+  {"id": "P5", "name": "Premium Kit", "category": "Hardware", "price": 150.0, "created_at": "2024-12-05T00:00:00"}
+]

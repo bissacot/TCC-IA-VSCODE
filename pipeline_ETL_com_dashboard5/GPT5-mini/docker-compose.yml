@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: salesdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+  app:
+    build: .
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=postgresql+psycopg2://postgres:postgres@db:5432/salesdb
+      - PRODUCTS_API_URL=https://fakestoreapi.com/products
+      - CSV_PATH=./data/sales.csv
+      - CUSTOMERS_JSON=./data/customers.json
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./:/app
+volumes:
+  db_data:

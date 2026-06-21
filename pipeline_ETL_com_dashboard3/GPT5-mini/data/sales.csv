@@ -1,0 +1,4 @@
+sale_id,customer_id,product_id,quantity,unit_price,sale_date,state
+S1,C1,P1,2,10.5,2025-12-01,CA
+S2,C2,P2,1,25.0,2025-12-05,NY
+S3,C1,P2,3,25.0,2026-01-10,CA

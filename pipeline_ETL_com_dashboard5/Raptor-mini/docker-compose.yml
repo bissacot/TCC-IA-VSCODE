@@ -1,0 +1,28 @@
+version: '3.9'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: sales_db
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  app:
+    build: .
+    command: streamlit run src/dashboard/app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - '8501:8501'
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/sales_db
+      - API_BASE_URL=https://api.example.com/products
+      - EXTRACT_SALES_FILE=data/sales.csv
+      - EXTRACT_CUSTOMERS_FILE=data/customers.json
+    volumes:
+      - .:/workspace:cached
+    depends_on:
+      - db
+volumes:
+  postgres_data: {}

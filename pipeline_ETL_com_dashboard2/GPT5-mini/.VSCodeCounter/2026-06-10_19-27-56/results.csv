@@ -1,0 +1,20 @@
+"filename", "language", "Markdown", "YAML", "Python", "Docker", "pip requirements", "SQLite", "comment", "blank", "total"
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\Dockerfile", "Docker", 0, 0, 0, 8, 0, 0, 0, 1, 9
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\README.md", "Markdown", 16, 0, 0, 0, 0, 0, 0, 8, 24
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\docker-compose.yml", "YAML", 0, 33, 0, 0, 0, 0, 0, 4, 37
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\requirements.txt", "pip requirements", 0, 0, 0, 0, 13, 0, 0, 1, 14
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\scripts\export_reports.py", "Python", 0, 0, 21, 0, 0, 0, 2, 8, 31
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\scripts\scheduler.py", "Python", 0, 0, 18, 0, 0, 0, 1, 8, 27
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\sql\create_tables.sql", "SQLite", 0, 0, 0, 0, 0, 32, 1, 4, 37
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\src\config.py", "Python", 0, 0, 15, 0, 0, 0, 0, 7, 22
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\src\dashboard\streamlit_app.py", "Python", 0, 0, 46, 0, 0, 0, 4, 16, 66
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\src\etl\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 1, 1, 2
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\src\etl\extract.py", "Python", 0, 0, 25, 0, 0, 0, 0, 9, 34
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\src\etl\load.py", "Python", 0, 0, 97, 0, 0, 0, 0, 17, 114
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\src\etl\run_etl.py", "Python", 0, 0, 26, 0, 0, 0, 4, 13, 43
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\src\etl\transform.py", "Python", 0, 0, 43, 0, 0, 0, 4, 12, 59
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\src\mock_api\app.py", "Python", 0, 0, 12, 0, 0, 0, 0, 6, 18
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\src\utils\logging_config.py", "Python", 0, 0, 10, 0, 0, 0, 0, 3, 13
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\tests\test_extract.py", "Python", 0, 0, 7, 0, 0, 0, 2, 3, 12
+"c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste1\tests\test_transform.py", "Python", 0, 0, 10, 0, 0, 0, 0, 3, 13
+"Total", "-", 16, 33, 330, 8, 13, 32, 19, 124, 575

@@ -1,0 +1,56 @@
+Date : 2026-06-10 19:39:50
+Directory : c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2
+Total : 19 files,  412 codes, 19 comments, 113 blanks, all 544 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| Python           |         12 |        314 |         18 |         97 |        429 |
+| YAML             |          1 |         32 |          0 |          4 |         36 |
+| SQLite           |          1 |         29 |          1 |          4 |         34 |
+| Markdown         |          1 |         11 |          0 |          4 |         15 |
+| pip requirements |          1 |         11 |          0 |          1 |         12 |
+| Docker           |          1 |          7 |          0 |          1 |          8 |
+| JSON             |          1 |          4 |          0 |          1 |          5 |
+| CSV              |          1 |          4 |          0 |          1 |          5 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                              | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                 |         19 |        412 |         19 |        113 |        544 |
+| . (Files)                                                                         |          4 |         61 |          0 |         10 |         71 |
+| app                                                                               |          1 |         62 |          2 |         17 |         81 |
+| data                                                                              |          2 |          8 |          0 |          2 |         10 |
+| src                                                                               |         11 |        270 |         17 |         81 |        368 |
+| src\etl                                                                           |         11 |        270 |         17 |         81 |        368 |
+| tests                                                                             |          1 |         11 |          0 |          3 |         14 |
++-----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                          | language         | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\Dockerfile                | Docker           |          7 |          0 |          1 |          8 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\README.md                 | Markdown         |         11 |          0 |          4 |         15 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\app\streamlit_app.py      | Python           |         62 |          2 |         17 |         81 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\data\customers.json       | JSON             |          4 |          0 |          1 |          5 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\data\sales.csv            | CSV              |          4 |          0 |          1 |          5 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\docker-compose.yml        | YAML             |         32 |          0 |          4 |         36 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\requirements.txt          | pip requirements |         11 |          0 |          1 |         12 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\__init__.py       | Python           |         10 |          0 |          1 |         11 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\api_client.py     | Python           |         14 |          1 |          4 |         19 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\config.py         | Python           |         16 |          0 |          8 |         24 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\db.py             | Python           |         44 |          0 |         12 |         56 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\extractors.py     | Python           |         24 |          0 |          8 |         32 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\load.py           | Python           |         14 |          0 |          8 |         22 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\logging_config.py | Python           |          7 |          0 |          5 |         12 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\models.sql        | SQLite           |         29 |          1 |          4 |         34 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\pipeline.py       | Python           |         55 |          9 |         18 |         82 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\quality.py        | Python           |         14 |          0 |          3 |         17 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\src\etl\transform.py      | Python           |         43 |          6 |         10 |         59 |
+| c:\Users\mathe\OneDrive\Área de Trabalho\pipegpt\teste2\tests\test_transform.py   | Python           |         11 |          0 |          3 |         14 |
+| Total                                                                             |                  |        412 |         19 |        113 |        544 |
++-----------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
