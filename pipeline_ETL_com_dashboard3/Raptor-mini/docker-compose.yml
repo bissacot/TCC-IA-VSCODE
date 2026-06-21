@@ -1,0 +1,46 @@
+version: '3.9'
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: etl_raptor
+      POSTGRES_USER: etl_user
+      POSTGRES_PASSWORD: etl_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: uvicorn src.api.mock_api:app --host 0.0.0.0 --port 8000
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+  etl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python -m src.etl_raptor.cli --run
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+      - api
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: streamlit run src/dashboard/app.py --server.address 0.0.0.0 --server.port 8501
+    ports:
+      - 8501:8501
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres
+volumes:
+  postgres_data:

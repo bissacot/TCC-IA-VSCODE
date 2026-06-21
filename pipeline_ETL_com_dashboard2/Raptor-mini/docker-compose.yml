@@ -1,0 +1,62 @@
+version: '3.9'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: etl_db
+      POSTGRES_USER: etl_user
+      POSTGRES_PASSWORD: etl_password
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./sql:/docker-entrypoint-initdb.d:ro
+    ports:
+      - "5432:5432"
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python mock_api.py
+    environment:
+      - FLASK_ENV=development
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+
+  etl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python -m src.scheduler
+    environment:
+      - DATABASE_URL=postgresql+psycopg2://etl_user:etl_password@db:5432/etl_db
+      - SALES_CSV_PATH=sample_data/sales.csv
+      - CUSTOMERS_JSON_PATH=sample_data/customers.json
+      - PRODUCT_API_URL=http://api:5000/products
+      - LOG_LEVEL=INFO
+      - ETL_SCHEDULE_TIME=02:00
+      - PDF_OUTPUT_PATH=output/etl_summary.pdf
+      - EXCEL_OUTPUT_PATH=output/etl_export.xlsx
+    depends_on:
+      - db
+      - api
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: streamlit run dashboard/app.py --server.port 8501 --server.address 0.0.0.0
+    environment:
+      - DATABASE_URL=postgresql+psycopg2://etl_user:etl_password@db:5432/etl_db
+      - SALES_CSV_PATH=sample_data/sales.csv
+      - CUSTOMERS_JSON_PATH=sample_data/customers.json
+      - PRODUCT_API_URL=http://api:5000/products
+      - LOG_LEVEL=INFO
+    ports:
+      - "8501:8501"
+    depends_on:
+      - db
+
+volumes:
+  db_data:
