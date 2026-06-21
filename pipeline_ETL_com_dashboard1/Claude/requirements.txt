@@ -18,7 +18,7 @@ streamlit==1.29.0
 plotly==5.18.0
 
 # Scheduling (Optional - for Airflow)
-apache-airflow==2.7.2
+# apache-airflow==2.7.2
 
 # Testing
 pytest==7.4.3
@@ -27,10 +27,10 @@ pytest-mock==3.12.0
 
 # Reporting (Advanced)
 reportlab==4.0.7
-openpyxl==3.11.0
+openpyxl==3.1.5
 
 # Logging & Monitoring
-python-logging-loki==0.3.2
+python-logging-loki==0.3.1
 
 # Type Checking
 mypy==1.7.1

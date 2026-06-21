@@ -4,7 +4,7 @@ Transform, validate, and enrich extracted data
 """
 
 from abc import ABC, abstractmethod
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Optional
 from datetime import datetime, date
 import re
 

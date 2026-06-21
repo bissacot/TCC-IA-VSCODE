@@ -1,0 +1,36 @@
+Date : 2026-06-12 17:25:50
+Directory : c:\Users\Vinicius Nacur\Desktop\CRUD Testes Restantes (5)
+Total : 8 files,  0 codes, 0 comments, 0 blanks, all 0 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Markdown |          2 |          0 |          0 |          0 |          0 |
+| Python   |          6 |          0 |          0 |          0 |          0 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                  | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                     |          8 |          0 |          0 |          0 |          0 |
+| . (Files)                                                             |          4 |        193 |          9 |         39 |        241 |
+| ..                                                                    |          4 |       -193 |         -9 |        -39 |       -241 |
+| ..\GPT5 3 CRUD                                                        |          4 |       -193 |         -9 |        -39 |       -241 |
++-----------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                              | language | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\Vinicius Nacur\Desktop\CRUD Testes Restantes (5)\README.md   | Markdown |         22 |          0 |          9 |         31 |
+| c:\Users\Vinicius Nacur\Desktop\CRUD Testes Restantes (5)\cli.py      | Python   |         55 |          1 |          7 |         63 |
+| c:\Users\Vinicius Nacur\Desktop\CRUD Testes Restantes (5)\run_demo.py | Python   |         19 |          2 |          7 |         28 |
+| c:\Users\Vinicius Nacur\Desktop\CRUD Testes Restantes (5)\students.py | Python   |         97 |          6 |         16 |        119 |
+| c:\Users\Vinicius Nacur\Desktop\GPT5 3 CRUD\README.md                 | Markdown |        -22 |          0 |         -9 |        -31 |
+| c:\Users\Vinicius Nacur\Desktop\GPT5 3 CRUD\cli.py                    | Python   |        -55 |         -1 |         -7 |        -63 |
+| c:\Users\Vinicius Nacur\Desktop\GPT5 3 CRUD\run_demo.py               | Python   |        -19 |         -2 |         -7 |        -28 |
+| c:\Users\Vinicius Nacur\Desktop\GPT5 3 CRUD\students.py               | Python   |        -97 |         -6 |        -16 |       -119 |
+| Total                                                                 |          |          0 |          0 |          0 |          0 |
++-----------------------------------------------------------------------+----------+------------+------------+------------+------------+
